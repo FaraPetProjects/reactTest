@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background-color: #1a1a1a; /* 👈 как у тебя на скрине */
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+.app-center {
+  display: flex;
+  justify-content: center; /* по горизонтали */
+  align-items: center; /* по вертикали */
+  min-height: 100vh;
+  width: 100%;
+}
